@@ -1,8 +1,6 @@
 import numpy as np
 import time
 
-# from bandit import BernoulliBandit
-
 class Policy:
     def __init__(self, bandit):
         self.bandit = bandit
